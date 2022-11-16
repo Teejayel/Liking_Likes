@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	vertical-align: baseline;
+    font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	font-style: inherit;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    list-style: none;
+}
+
+.centerpage {
+    padding: 0 15%;
+    max-width: 500px;
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+.margin {
+    margin: 20px auto;
+}
+
+.nav {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+}
+
+.feed {
+    text-align: center;
+}
+
+.container {
+    min-height: 92px; 
+    padding: 8px 18px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+}
+
+.gap {
+    gap: 18px;
+}
+
+.col-1 {
+    flex: 1;
+    text-align: center;
+}
+
+.col-1 .container {
+    padding: 0 0 8px 0;
+}
+
+.col-1 a {
+    font-size: 14px;
+}
+
+.col-2 {
+    flex: 3;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    height: 55px;
+    margin: 0 auto;
+}
+
+.container, button {
+    border: 3px solid black;
+}
+
+.row {
+    align-items: center;
+    padding: 6px 0;
+}
+
+h3 {
+    flex: 2;
+}
+
+h4 {
+    flex: 1;
+}
+
+button {
+    width: 55px;
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(255, 217, 113);
+    border-radius: 2px;
+    box-shadow: 3px 3px 1px black;
+}
